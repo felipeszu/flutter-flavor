@@ -1,0 +1,20 @@
+//
+//  alpha.xcconfig
+//  Runner
+//
+//  Created by Felipe Szulcsewski on 29/02/20.
+//  Copyright © 2020 The Chromium Authors. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Generated.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug-alpha.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.release-alpha.xcconfig"
+
+FLUTTER_TARGET = lib/main_alpha.dart
+FLUTTER_APP_NAME = Alpha S/A// app name config for ios
+CUSTOM_BUNDLE_IDENTIFIER = br.com
+BUNDLE_SUFFIX = .alpha // You can edit here
+TRACK_WIDGET_CREATION = false
