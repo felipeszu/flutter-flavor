@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "name": "Flutter",
             "request": "launch",
@@ -20,5 +21,16 @@
                 "alpha"
             ]
         },
+        {
+            "name": "Beta",
+            "request": "launch",
+            "type": "dart",
+            "program" : "lib/main_beta.dart",
+            "args": [
+                "--flavor",
+                "beta"
+            ]
+        },
+
     ]
 }

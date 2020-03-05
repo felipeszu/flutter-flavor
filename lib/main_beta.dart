@@ -4,13 +4,13 @@ import 'package:flutter_flavor/flavor_config.dart';
 
 void main() {
   FlavorConfig(
-    flavor: Flavor.STAGING, 
+    flavor: Flavor.PRODUCTION, 
     values: FlavorValues(
-      companyId: 'alpha-0001', 
-      companyName: 'Alpha S/A'
+      companyId: 'beta-0001', 
+      companyName: 'BETA S/A'
     ),
-    primaryColor: Colors.red,
-    accentColor:  Color.fromRGBO(87, 115, 45, 1)
+    primaryColor: Colors.blueGrey,
+    accentColor:  Colors.pinkAccent
   );
   runApp(MyApp());
 } 

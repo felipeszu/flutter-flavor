@@ -15,6 +15,6 @@
 
 FLUTTER_TARGET = lib/main_alpha.dart
 FLUTTER_APP_NAME = Alpha S/A// app name config for ios
-CUSTOM_BUNDLE_IDENTIFIER = br.com
-BUNDLE_SUFFIX = .alpha // You can edit here
+FLAVOR_BUNDLE_IDENTIFIER = br.com.alpha
+FLAVOR_APPICON = AppIcon-alpha
 TRACK_WIDGET_CREATION = false
